@@ -1,7 +1,7 @@
 """ Script to read a standard csv file """
 import csv
 # Opens Test.csv to be read with 'r'
-with open('test.csv', 'r') as csvfile:
+with open('Test.csv', 'r') as csvfile:
     # The default delimiter is a comma
     CREADER = csv.reader(csvfile, delimiter=',')
     for row in CREADER:
